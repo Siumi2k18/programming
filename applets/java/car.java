@@ -51,7 +51,7 @@ public class car extends Applet implements Runnable,MouseListener
 	}
 	
 	Thread t;
-	Thread t1;
+	 Thread t1;
 	public void init()
 	{
 		 t=new Thread(this);
@@ -70,7 +70,7 @@ public class car extends Applet implements Runnable,MouseListener
 			{
 		update();
 			repaint();
-			try
+			 try
 			{
 			  Thread.sleep(10);
 			}
