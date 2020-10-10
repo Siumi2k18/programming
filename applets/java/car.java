@@ -5,7 +5,8 @@ public class car extends Applet implements Runnable,MouseListener
 
 
 {
-	int i=0,k=0,z=0;
+	
+	int i=0 , k=0 ,z=0 ;
 	public void paint(Graphics g)
 	{
           int x[]={200+i,300+i,400+i,500+i,500+i,0+i,0+i,100+i};
